@@ -1,0 +1,64 @@
+.main {
+  padding: 20px;
+  height: 100vh;
+  background: url('/travel.jpg') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content form {
+  margin-bottom: 20px;
+}
+
+.content label {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.content select {
+  font-size: 1em;
+  padding: 5px;
+}
+
+.content button {
+  font-size: 1em;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background-color: #0056b3;
+}
+
+.location-list {
+  margin-top: 20px;
+}
+
+.location-list h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.location-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-list li {
+  font-size: 1.2em;
+}

@@ -1,0 +1,28 @@
+.home {
+    height: 100vh;
+    background: url('/background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .overlay h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Hide the text color */
+  }
+  

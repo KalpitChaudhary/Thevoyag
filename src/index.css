@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  color: #ff6b6b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  font-family: 'Arial', sans-serif;
+  transition: all 0.3s ease;
+}
